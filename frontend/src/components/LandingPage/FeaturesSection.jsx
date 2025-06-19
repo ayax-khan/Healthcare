@@ -1,8 +1,9 @@
+// filename: FeaturesSection.jsx
 export default function FeaturesSection() {
   return (
-    <section>
-      <div className="relative bg-[#EDF2F6] z-40">
-        <div className="font-outfit py-[70px] md:py-[100px] col-md-9 mx-auto">
+    <section id="features">
+      <div className="relative bg-[#EDF2F6] z-0">
+        <div className="font-sans py-[70px] md:py-[40px] col-md-9 mx-auto">
           <div>
             <h3 className="text-[#004b79] font-bold text-[24px] md:text-[34px] md:px-0 px-2 pb-[20px] md:pb-[30px]">
               What services do we offer?
@@ -19,8 +20,7 @@ export default function FeaturesSection() {
               Records Management services.
             </p>
           </div>
-          <div className="w-full gap-[20px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 py-[20px] md:py-[14px] md:px-0 px-2">
-            {/* Repeat this block for each service */}
+          <div className="w-full gap-[20px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 py-[20px] md:py-[4px] md:px-0 px-2">
             <div className="w-full text-[#004B79] bg-[#fff] px-4 py-4 my-2 relative">
               <p className="text-[24px] md:text-[26px] font-bold leading-[28px] md:leading-[34px]">
                 Medical Billing &amp;<br />Coding
@@ -29,14 +29,12 @@ export default function FeaturesSection() {
                 Medical billing and coding can be a complex and time-consuming task, but with our professional
                 services, you can streamline the process and enhance the financial success of your practice.
               </p>
-              <button className="lg:absolute lg:bottom-6 w-[80px] md:w-[100px] h-[26px] md:h-[36px] rounded-[6px] text-[#fff] button text-[12px] md:text-[16px]">
+              <button className="lg:absolute lg:bottom-6 w-[80px] md:w-[100px] h-[26px] md:h-[36px] rounded-[6px] text-[#fff] bg-blue-500 hover:bg-blue-600 text-[12px] md:text-[16px]">
                 <a href="/medical-billing-and-coding" className="hover:no-underline hover:text-[#fff]">
                   <p>Read More</p>
                 </a>
               </button>
             </div>
-            {/* ...repeat for other services, updating content and links... */}
-            {/* Revenue Cycle Management */}
             <div className="w-full text-[#004B79] bg-[#fff] px-4 py-4 my-2 relative">
               <p className="text-[24px] md:text-[26px] font-bold leading-[28px] md:leading-[34px]">
                 Revenue Cycle Management
@@ -46,13 +44,12 @@ export default function FeaturesSection() {
                 provides comprehensive solutions to help healthcare providers optimize their revenue and improve
                 their bottom line.
               </p>
-              <button className="lg:absolute lg:bottom-6 w-[80px] md:w-[100px] h-[26px] md:h-[36px] rounded-[6px] text-[#fff] button text-[12px] md:text-[16px]">
+              <button className="lg:absolute lg:bottom-6 w-[80px] md:w-[100px] h-[26px] md:h-[36px] rounded-[6px] text-[#fff] bg-blue-500 hover:bg-blue-600 text-[12px] md:text-[16px]">
                 <a href="/revenue-cycle-management" className="hover:no-underline hover:text-[#fff]">
                   <p>Read More</p>
                 </a>
               </button>
             </div>
-            {/* Credentialing Services */}
             <div className="w-full text-[#004B79] bg-[#fff] px-4 py-4 my-2 relative">
               <p className="text-[24px] md:text-[26px] font-bold leading-[28px] md:leading-[34px]">
                 Credentialing<br />Services
@@ -62,13 +59,12 @@ export default function FeaturesSection() {
                 the most reliable service possible. Our experienced team of professionals can help you
                 throughout the credentialing process.
               </p>
-              <button className="lg:absolute lg:bottom-6 w-[80px] md:w-[100px] h-[26px] md:h-[36px] rounded-[6px] text-[#fff] button text-[12px] md:text-[16px]">
+              <button className="lg:absolute lg:bottom-6 w-[80px] md:w-[100px] h-[26px] md:h-[36px] rounded-[6px] text-[#fff] bg-blue-500 hover:bg-blue-600 text-[12px] md:text-[16px]">
                 <a href="/credentialing-services" className="hover:no-underline hover:text-[#fff]">
                   <p>Read More</p>
                 </a>
               </button>
             </div>
-            {/* Eligibility Verification */}
             <div className="w-full text-[#004B79] bg-[#fff] px-4 py-4 my-2 relative">
               <p className="text-[24px] md:text-[26px] font-bold leading-[28px] md:leading-[34px]">
                 Eligibility<br />Verification
@@ -78,13 +74,12 @@ export default function FeaturesSection() {
                 providers. It helps reduce the risk of denied or delayed claims, ensuring providers receive
                 accurate payment for their services.
               </p>
-              <button className="lg:absolute lg:bottom-6 w-[80px] md:w-[100px] h-[26px] md:h-[36px] rounded-[6px] text-[#fff] button text-[12px] md:text-[16px]">
+              <button className="lg:absolute lg:bottom-6 w-[80px] md:w-[100px] h-[26px] md:h-[36px] rounded-[6px] text-[#fff] bg-blue-500 hover:bg-blue-600 text-[12px] md:text-[16px]">
                 <a href="/eligibility-verification" className="hover:no-underline hover:text-[#fff]">
                   <p>Read More</p>
                 </a>
               </button>
             </div>
-            {/* Account Receivable */}
             <div className="w-full text-[#004B79] bg-[#fff] px-4 py-4 my-2 relative">
               <p className="text-[24px] md:text-[26px] font-bold leading-[28px] md:leading-[34px]">
                 Account<br />Receivable
@@ -94,13 +89,12 @@ export default function FeaturesSection() {
                 providers as it directly affects their cash flow. AR management helps healthcare providers to
                 ensure timely payment.
               </p>
-              <button className="lg:absolute lg:bottom-6 w-[80px] md:w-[100px] h-[26px] md:h-[36px] rounded-[6px] text-[#fff] button text-[12px] md:text-[16px]">
+              <button className="lg:absolute lg:bottom-6 w-[80px] md:w-[100px] h-[26px] md:h-[36px] rounded-[6px] text-[#fff] bg-blue-500 hover:bg-blue-600 text-[12px] md:text-[16px]">
                 <a href="/accounts-receivable-in-medical-billing" className="hover:no-underline hover:text-[#fff]">
                   <p>Read More</p>
                 </a>
               </button>
             </div>
-            {/* Denial Management */}
             <div className="w-full text-[#004B79] bg-[#fff] px-4 py-4 my-2 relative">
               <p className="text-[24px] md:text-[26px] font-bold leading-[28px] md:leading-[34px]">
                 Denial<br />Management
@@ -108,15 +102,14 @@ export default function FeaturesSection() {
               <p className="text-[14px] md:text-[18px] leading-[20px] md:leading-[28px] text-[#000F18] pt-[8px] pb-[20px] md:pt-[10px] md:pb-[50px]">
                 Denial management is a critical aspect of medical billing that can greatly impact the revenue of
                 healthcare providers. At Scribe Align, we understand the complexities and frustrations of denied
-                claims and aim to help providers .
+                claims and aim to help providers.
               </p>
-              <button className="lg:absolute lg:bottom-6 w-[80px] md:w-[100px] h-[26px] md:h-[36px] rounded-[6px] text-[#fff] button text-[12px] md:text-[16px]">
+              <button className="lg:absolute lg:bottom-6 w-[80px] md:w-[100px] h-[26px] md:h-[36px] rounded-[6px] text-[#fff] bg-blue-500 hover:bg-blue-600 text-[12px] md:text-[16px]">
                 <a href="/denial-management" className="hover:no-underline hover:text-[#fff]">
                   <p>Read More</p>
                 </a>
               </button>
             </div>
-            {/* Prior Authorization */}
             <div className="w-full text-[#004B79] bg-[#fff] px-4 py-4 my-2 relative">
               <p className="text-[24px] md:text-[26px] font-bold leading-[28px] md:leading-[34px]">
                 Prior<br />Authorization
@@ -126,23 +119,22 @@ export default function FeaturesSection() {
                 ensure that patients receive the right coverage for their medical treatments, reduces the risk
                 of denied claims, and streamlines the payment process.
               </p>
-              <button className="lg:absolute lg:bottom-6 w-[80px] md:w-[100px] h-[26px] md:h-[36px] rounded-[6px] text-[#fff] button text-[12px] md:text-[16px]">
+              <button className="lg:absolute lg:bottom-6 w-[80px] md:w-[100px] h-[26px] md:h-[36px] rounded-[6px] text-[#fff] bg-blue-500 hover:bg-blue-600 text-[12px] md:text-[16px]">
                 <a href="/prior-authorization" className="hover:no-underline hover:text-[#fff]">
                   <p>Read More</p>
                 </a>
               </button>
             </div>
-            {/* Virtual Medical Scribe */}
             <div className="w-full text-[#004B79] bg-[#fff] px-4 py-4 my-2 relative">
               <p className="text-[24px] md:text-[26px] font-bold leading-[28px] md:leading-[34px]">
                 Virtual Medical<br />Scribe
               </p>
               <p className="text-[14px] md:text-[18px] leading-[20px] md:leading-[28px] text-[#000F18] pt-[8px] pb-[20px] md:pt-[10px] md:pb-[50px]">
-                As the healthcare industry shifts towards telehealth and remote care, the need for efficient and
+                <p>As the healthcare industry shifts towards telehealth and remote care, the need for efficient and
                 accurate documentation has never been greater. That's why we're proud to offer our virtual
-                medical scribe services to help streamline your practice.
-              </p>
-              <button className="lg:absolute lg:bottom-6 w-[80px] md:w-[100px] h-[26px] md:h-[36px] rounded-[6px] text-[#fff] button text-[12px] md:text-[16px]">
+                medical scribe services to help streamline your practice. </p>
+                </p>
+              <button className="lg:absolute lg:bottom-6 w-[80px] md:w-[100px] h-[26px] md:h-[36px] rounded-[6px] text-[#fff] bg-blue-500 hover:bg-blue-600 text-[12px] md:text-[16px]">
                 <a href="/virtual-medical-scribe" className="hover:no-underline hover:text-[#fff]">
                   <p>Read More</p>
                 </a>

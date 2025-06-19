@@ -1,11 +1,15 @@
+// filename: LandingPage.jsx
 import "./styles.css";
-import HeroSection from "./HeroSection";
-import FeaturesSection from "./FeaturesSection";
-import MedicalBillingSection from "./MedicalBillingSection";
-import RevenueSection from "./RevenueSection";
-import CTASection from "./CTASection";
-import Footer from "./Footer";
-import ChooseSection from "./ChooseSection";
+import HeroSection from './HeroSection';
+import FeaturesSection from './FeaturesSection';
+import MedicalBillingSection from './MedicalBillingSection';
+import RevenueSection from './RevenueSection';
+import ChooseSection from './ChooseSection';
+import SolutionsSection from './Solutions';
+import WorkflowsSection from './Workflows';
+import Footer from './Footer';
+import React from 'react';
+import QuestionsAndAnswers from "./Questions_Answers";
 
 function LandingPage() {
   return (
@@ -15,8 +19,11 @@ function LandingPage() {
         <FeaturesSection />
         <MedicalBillingSection />
         <RevenueSection />
-        <ChooseSection/>
-        <CTASection />
+        <ChooseSection />
+        <SolutionsSection />
+        <WorkflowsSection />
+        <QuestionsAndAnswers/>
+        {/* <CTASection /> */}
         <Footer />
       </main>
     </div>
