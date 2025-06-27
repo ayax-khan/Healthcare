@@ -13,7 +13,7 @@ export default function FeaturesSection() {
             <p>
               Our services include Medical Billing and Coding, Revenue Cycle Management,
               Enrollment and Credentialing, Claim and Denial Management, Eligibility Verification, Prior
-              Authorization, Accounts Receivable, Medical Scribe, and Patient Billing.
+              Authorization, Accounts Receivable, Medical Hican , and Patient Billing.
             </p>
             <p>
               In addition, we provide Medical Transcription, Appointment Scheduling, and Medical
@@ -40,7 +40,7 @@ export default function FeaturesSection() {
                 Revenue Cycle Management
               </p>
               <p className="text-[14px] md:text-[18px] leading-[20px] md:leading-[28px] text-[#000F18] pt-[8px] pb-[20px] md:pt-[10px] md:pb-[50px]">
-                Revenue cycle management is a critical component of the medical billing process. Scribe Align
+                Revenue cycle management is a critical component of the medical billing process. HICAN Medical 
                 provides comprehensive solutions to help healthcare providers optimize their revenue and improve
                 their bottom line.
               </p>
@@ -55,7 +55,7 @@ export default function FeaturesSection() {
                 Credentialing<br />Services
               </p>
               <p className="text-[14px] md:text-[18px] leading-[20px] md:leading-[28px] text-[#000F18] pt-[8px] pb-[20px] md:pt-[10px] md:pb-[50px]">
-                At Scribe Align, we understand the importance of credentialing and work hard to give our clients
+                At HICAN Medical , we understand the importance of credentialing and work hard to give our clients
                 the most reliable service possible. Our experienced team of professionals can help you
                 throughout the credentialing process.
               </p>
@@ -101,7 +101,7 @@ export default function FeaturesSection() {
               </p>
               <p className="text-[14px] md:text-[18px] leading-[20px] md:leading-[28px] text-[#000F18] pt-[8px] pb-[20px] md:pt-[10px] md:pb-[50px]">
                 Denial management is a critical aspect of medical billing that can greatly impact the revenue of
-                healthcare providers. At Scribe Align, we understand the complexities and frustrations of denied
+                healthcare providers. At HICAN Medical , we understand the complexities and frustrations of denied
                 claims and aim to help providers.
               </p>
               <button className="lg:absolute lg:bottom-6 w-[80px] md:w-[100px] h-[26px] md:h-[36px] rounded-[6px] text-[#fff] bg-blue-500 hover:bg-blue-600 text-[12px] md:text-[16px]">
@@ -127,15 +127,15 @@ export default function FeaturesSection() {
             </div>
             <div className="w-full text-[#004B79] bg-[#fff] px-4 py-4 my-2 relative">
               <p className="text-[24px] md:text-[26px] font-bold leading-[28px] md:leading-[34px]">
-                Virtual Medical<br />Scribe
+                Virtual Medical<br />Hican
               </p>
               <p className="text-[14px] md:text-[18px] leading-[20px] md:leading-[28px] text-[#000F18] pt-[8px] pb-[20px] md:pt-[10px] md:pb-[50px]">
                 <p>As the healthcare industry shifts towards telehealth and remote care, the need for efficient and
                 accurate documentation has never been greater. That's why we're proud to offer our virtual
-                medical scribe services to help streamline your practice. </p>
+                medical HICAN Medical services to help streamline your practice. </p>
                 </p>
               <button className="lg:absolute lg:bottom-6 w-[80px] md:w-[100px] h-[26px] md:h-[36px] rounded-[6px] text-[#fff] bg-blue-500 hover:bg-blue-600 text-[12px] md:text-[16px]">
-                <a href="/virtual-medical-scribe" className="hover:no-underline hover:text-[#fff]">
+                <a href="/virtual-medical-hican" className="hover:no-underline hover:text-[#fff]">
                   <p>Read More</p>
                 </a>
               </button>

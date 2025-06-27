@@ -22,7 +22,7 @@ export default function Header() {
         <div className="flex lg:flex-1">
           <Link to="/" className="-m-1.5 p-1.5 text-sm font-semibold leading-6 text-gray-900" onClick={() => scrollToSection('hero')}>
             <span className="sr-only">HICAN Medical Billing</span>
-            <img className="h-8 w-auto float-left" src="/logo.png" alt="" />HICAN Medical Billing
+            <img className="h-8 w-auto float-left" src="/logo.png" alt="HICAN Medical Billing" />HICAN Medical Billing
           </Link>
         </div>
         <div className="flex lg:hidden">

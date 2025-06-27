@@ -9,9 +9,9 @@ export default function MedicalBillingSection() {
         </div>
         <div className="text-[14px] md:text-[18px] text-[#000F18] leading-[20px] md:leading-[28px] w-full m-auto md:px-0 px-2">
           <p className="pt-[14px] md:pt-[16px]">
-            Welcome to Scribe Align LLC, your go-to{" "}
+            Welcome to HICAN Medical Align LLC, your go-to{" "}
             <a
-              href="https://scribealign.com/medical-billing-las-vegas"
+              href="#"
               className="font-semibold text-[#00aeef]"
             >
               medical billing company in Las Vegas, Nevada
@@ -25,11 +25,11 @@ export default function MedicalBillingSection() {
             Our team of experts offers a wide range of medical billing
             services, including billing, coding, and collections. We also
             specialize in Credentialing, Denial Management, Account
-            Receivable, and Virtual Medical Scribes. We understand that
+            Receivable, and Virtual Medical Hicans. We understand that
             running a medical practice can be challenging, so we work
             closely with our clients to ensure that their{" "}
             <a
-              href="https://scribealign.com/medical-billing-and-coding"
+              href="#"
               className="font-semibold text-[#00aeef]"
             >
               billing and coding
@@ -37,7 +37,7 @@ export default function MedicalBillingSection() {
             are accurate and up-to-date.
           </p>
           <p className="pt-[14px] md:pt-[16px]">
-            Scribe Align is a medical billing company that offers advanced
+            HICAN Medical Align is a medical billing company that offers advanced
             and high-quality practice management services to a wide range
             of medical and non-medical specialties, including
             physiotherapy, orthopedics, dermatology, neurology,

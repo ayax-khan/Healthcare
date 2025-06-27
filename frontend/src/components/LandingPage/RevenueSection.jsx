@@ -4,7 +4,7 @@ export default function RevenueSection() {
       <div className="font-outfit py-[70px] md:py-[100px] col-md-9 mx-auto">
         <div className="md:px-0 px-2">
           <h3 className="md:text-center font-bold text-[24px] md:text-[34px] text-[#004B79] w-full m-auto text-[#004B79]">
-            Maximize Your Revenue with Scribe Align LLC{" "}
+            Maximize Your Revenue with HICAN Medical  LLC{" "}
           </h3>
           <p className="py-[20px] md:py-[30px] w-full m-auto md:text-center leading-[20px] text-[14px] md:text-[18px] md:leading-[28px]">
             We use modern technology and the latest industry standards to
@@ -31,7 +31,7 @@ export default function RevenueSection() {
             </p>
             <p className="mb-[12px] md:mb-[16px]">
               However, by working with a professional medical billing
-              company like Scribe Align LLC, you can ensure that your
+              company like HICAN Medical  LLC, you can ensure that your
               billing and coding are accurate and up-to-date and that you
               receive proper reimbursement for your services.
             </p>

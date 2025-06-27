@@ -33,7 +33,7 @@ export default function FAQSection() {
       },
       {
         id: 'panel-5',
-        question: 'How does Scribe Align\'s medical billing service help with insurance claim disputes?',
+        question: 'How does HICAN Medical \'s medical billing service help with insurance claim disputes?',
         answer: 'Our team of experts is well-versed in dealing with insurance providers and is equipped to resolve any disputes or issues that may arise. We have the knowledge and expertise to ensure that your claims are processed accurately and efficiently, and we work closely with our clients to resolve any disputes that may arise.',
       },
       {
@@ -52,7 +52,7 @@ export default function FAQSection() {
       {
         id: 'panel-1a',
         question: 'What services do you offer as a medical billing company in Las Vegas?',
-        answer: 'We offer various medical billing services, including billing, coding, and collections. We also offer specialized services such as Credentialing, Denial Management, Account Receivable, and Virtual Medical Scribes.',
+        answer: 'We offer various medical billing services, including billing, coding, and collections. We also offer specialized services such as Credentialing, Denial Management, Account Receivable, and Virtual Medical HICAN Medical .',
       },
       {
         id: 'panel-2a',
@@ -67,22 +67,22 @@ export default function FAQSection() {
       {
         id: 'panel-4a',
         question: 'How does medical billing outsourcing benefit my practice?',
-        answer: 'Outsourcing your medical billing to Scribe Align LLC can save you time and money while ensuring that your billing and coding are accurate, up-to-date, and fully compliant with all relevant regulations and standards.',
+        answer: 'Outsourcing your medical billing to HICAN Medical  LLC can save you time and money while ensuring that your billing and coding are accurate, up-to-date, and fully compliant with all relevant regulations and standards.',
       },
       {
         id: 'panel-5a',
-        question: 'What are the advantages of using a medical billing service like Scribe Align?',
+        question: 'What are the advantages of using a medical billing service like HICAN Medical ?',
         answer: 'Our team of experts is dedicated to providing accurate and efficient services. Using our services, you can expect an increase in revenue, improved cash flow, and reduced administrative burden.',
       },
       {
         id: 'panel-6a',
-        question: 'What sets Scribe Align LLC apart from other medical billing services?',
+        question: 'What sets HICAN Medical  LLC apart from other medical billing services?',
         answer: 'We truly care about our clients and their success. We take the time to understand their needs and tailor our services accordingly. We also have a team of professionals who are passionate about what they do and are committed to providing the best possible service.',
       },
       {
         id: 'panel-7a',
-        question: 'How do Scribe Align\'s medical billing services improve patient care?',
-        answer: 'Scribe Align\'s medical billing service can improve patient care by reducing the administrative burden on healthcare providers. Our services are designed to improve the overall revenue cycle management, allowing healthcare providers to devote more time and resources to patient care.',
+        question: 'How do HICAN Medical \'s medical billing services improve patient care?',
+        answer: 'HICAN Medical \'s medical billing service can improve patient care by reducing the administrative burden on healthcare providers. Our services are designed to improve the overall revenue cycle management, allowing healthcare providers to devote more time and resources to patient care.',
       },
     ],
   ];
